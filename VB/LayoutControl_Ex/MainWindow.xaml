@@ -1,4 +1,4 @@
-﻿<Window x:Class="LayoutControl_Ex.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" Title="MainWindow" Height="300" Width="572">
+<Window x:Class="LayoutControl_Ex.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" Title="MainWindow" Height="300" Width="572">
     <Grid x:Name="LayoutRoot" Background="White">
         <lc:LayoutControl Orientation="Vertical" Background="#FFEAEAEA">
             <lc:LayoutGroup Orientation="Horizontal">
