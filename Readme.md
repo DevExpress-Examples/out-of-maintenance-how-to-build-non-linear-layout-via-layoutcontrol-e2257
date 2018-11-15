@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/LayoutControl_Ex/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/LayoutControl_Ex/MainWindow.xaml))
+<!-- default file list end -->
 # How to build non-linear layout via LayoutControl 
 
 
