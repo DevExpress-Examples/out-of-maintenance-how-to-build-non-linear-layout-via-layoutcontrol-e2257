@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LayoutControl_Ex", "LayoutControl_Ex\LayoutControl_Ex.vbproj", "{8DFF667D-ABD1-4E87-B830-247C9C4FEBCB}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutControl_Ex", "LayoutControl_Ex\LayoutControl_Ex.Net5.csproj", "{8DFF667D-ABD1-4E87-B830-247C9C4FEBCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
