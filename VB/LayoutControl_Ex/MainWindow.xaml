@@ -1,53 +1,57 @@
-<Window x:Class="LayoutControl_Ex.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" Title="MainWindow" Height="300" Width="572">
+<Window x:Class="LayoutControl_Ex.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
+        Title="MainWindow" Height="300" Width="572">
     <Grid x:Name="LayoutRoot" Background="White">
         <lc:LayoutControl Orientation="Vertical" Background="#FFEAEAEA">
             <lc:LayoutGroup Orientation="Horizontal">
                 <lc:LayoutGroup Orientation="Vertical">
                     <lc:LayoutGroup Orientation="Horizontal" View="GroupBox" Header="Group 1" IsCollapsible="True">
                         <lc:LayoutItem Label="Item 1:" VerticalAlignment="Stretch">
-                            <TextBox />
+                            <TextBox/>
                         </lc:LayoutItem>
                         <lc:LayoutGroup Orientation="Vertical" lc:LayoutControl.AllowHorizontalSizing="True">
                             <lc:LayoutItem Label="Item 2:" VerticalAlignment="Stretch">
-                                <TextBox />
+                                <TextBox/>
                             </lc:LayoutItem>
                             <lc:LayoutItem Label="Item 3:" VerticalAlignment="Stretch">
-                                <TextBox />
+                                <TextBox/>
                             </lc:LayoutItem>
                         </lc:LayoutGroup>
                     </lc:LayoutGroup>
-                    <lc:LayoutItem Label="Item 4:" VerticalAlignment="Stretch" lc:LayoutControl.AllowVerticalSizing="True">
-                        <TextBox />
+                    <lc:LayoutItem Label="Item 4:"  VerticalAlignment="Stretch" lc:LayoutControl.AllowVerticalSizing="True">
+                        <TextBox/>
                     </lc:LayoutItem>
                 </lc:LayoutGroup>
                 <lc:LayoutGroup View="Tabs" lc:LayoutControl.AllowHorizontalSizing="True">
                     <lc:LayoutGroup Header="Tab 1" Orientation="Vertical">
                         <lc:LayoutItem Label="Item 5:">
-                            <TextBox />
+                            <TextBox/>
                         </lc:LayoutItem>
                         <lc:LayoutItem Label="Item 6:" VerticalAlignment="Stretch">
-                            <TextBox />
+                            <TextBox/>
                         </lc:LayoutItem>
                     </lc:LayoutGroup>
                     <lc:LayoutGroup Header="Tab 2" Orientation="Vertical">
                         <lc:LayoutItem Label="Item 7:">
-                            <TextBox />
+                            <TextBox/>
                         </lc:LayoutItem>
                         <lc:LayoutItem Label="Item 8:">
-                            <TextBox />
+                            <TextBox/>
                         </lc:LayoutItem>
                     </lc:LayoutGroup>
                 </lc:LayoutGroup>
             </lc:LayoutGroup>
             <lc:LayoutGroup Orientation="Horizontal">
                 <lc:LayoutItem Label="Item 9:" HorizontalAlignment="Left">
-                    <TextBox Width="100" />
+                    <TextBox Width="100"/>
                 </lc:LayoutItem>
                 <lc:LayoutItem Label="Item 10:">
-                    <TextBox />
+                    <TextBox/>
                 </lc:LayoutItem>
                 <lc:LayoutItem Label="Item 11:" HorizontalAlignment="Right">
-                    <TextBox Width="100" />
+                    <TextBox Width="100"/>
                 </lc:LayoutItem>
             </lc:LayoutGroup>
         </lc:LayoutControl>
